@@ -12,10 +12,10 @@ class Hero extends React.Component{
     }
 
     render(){
-        let h = 130;
-        let w = 120;
-        let x = 1;
-        let y = 1;
+        let h = 32;
+        let w = 32;
+        let x = 0;
+        let y = 3;
 
         return(
             <div
@@ -25,7 +25,7 @@ class Hero extends React.Component{
                     width: `${w}px`,
                     backgroundImage: "url(/assets/images/hero/hero.png)",
                     backgroundRepeat: "no-repeat",
-                    backgroundPosition: `-${150 * x}px -${150 * y}px`,
+                    backgroundPosition: `-${32 * x}px -${32 * y}px`,
                     border: "1px solid"
                 }}
             >
