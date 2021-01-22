@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-import '../public/assets/stylesheets/map.css';
 class Hero extends React.Component{
     // constructor(props){
     //    super(props) 
@@ -11,15 +10,14 @@ class Hero extends React.Component{
     }
 
     render(){
-        <Map/>
         let h = 32;
         let w = 32;
         let x = 0;
         let y = 3;
 
         return(
-            <div className="map"> 
-                <div
+            <div className="character"> 
+                {/* <div
                     style={{
                         display: "inline-block",
                         height: `${h}px`,
@@ -30,8 +28,9 @@ class Hero extends React.Component{
                         border: "1px solid"
                     }}
                 >
+                </div> */}
+                <img className="hero pixelart" src="/assets/images/hero/hero.png" alt="character"/>
 
-                </div>
             </div>
         )
     }

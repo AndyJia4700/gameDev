@@ -1,0 +1,41 @@
+@import '../src/stylesheets/_hero.scss';
+@import '../src/stylesheets/_map.scss';
+
+:root {
+  --pixel-size: 2px;
+  --grid-cell: calc( var(--pixel-size) * 16);
+  --bg: #57dfd6;
+}
+@media( min-width: 700px ) {
+  :root {
+    --pixel-size: 3px;
+  }
+}
+
+@media( min-width: 1000px ) {
+  :root {
+    --pixel-size: 4px;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

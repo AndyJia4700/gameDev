@@ -1,0 +1,47 @@
+:root {
+   --pixel-size: 2px;
+   --grid-cell: calc( var(--pixel-size) * 16);
+   --bg: #142dee;
+}
+@media( min-width: 700px ) {
+   :root {
+      --pixel-size: 3px;
+   }
+}
+
+@media( min-width: 1000px ) {
+   :root {
+      --pixel-size: 4px;
+   }
+}
+
+html, body {
+   height: 100%;
+}
+
+body {
+   background: var(--bg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.pixel-art {
+   image-rendering: pixelated;
+}
+
+.frame {
+   width: calc(var(--pixel-size) * 160);
+   height: calc(var(--pixel-size) * 144);
+   outline: var(--pixel-size) solid #fff;
+   z-index:1; 
+   position:relative;
+}
+
+.map{
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}
+
