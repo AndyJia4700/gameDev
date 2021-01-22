@@ -29,7 +29,7 @@ class Hero extends React.Component{
                     }}
                 >
                 </div> */}
-                <img className="hero pixelart" src="/assets/images/hero/hero.png" alt="character"/>
+                {/* <img className="hero pixelart" src="/assets/images/hero/hero.png" alt="character"/> */}
 
             </div>
         )
