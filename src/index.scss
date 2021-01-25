@@ -1,23 +1,6 @@
 @import '../src/stylesheets/_hero.scss';
 @import '../src/stylesheets/_map.scss';
 
-:root {
-  --pixel-size: 2px;
-  --grid-cell: calc( var(--pixel-size) * 16);
-  --bg: #57dfd6;
-}
-@media( min-width: 700px ) {
-  :root {
-    --pixel-size: 3px;
-  }
-}
-
-@media( min-width: 1000px ) {
-  :root {
-    --pixel-size: 4px;
-  }
-}
-
 html, body {
   height: 100%;
 }

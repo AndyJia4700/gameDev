@@ -1,5 +1,5 @@
 :root {
-    --pixel-size: 6;
+    --pixel-size: 1;
 }
 
 .pixelart{
@@ -7,18 +7,16 @@
 }
 
 .character{
-    // width: calc(32px * var(--pixel-size));
-    // height: calc(32px * var(--pixel-size));
-    width: 32px;
-    height: 32px;
+    width: calc(44px * var(--pixel-size));
+    height: calc(44px * var(--pixel-size));
     overflow: hidden;
     position: relative;
     margin: 4em auto;
-    background: red;
 }
 
+
 .hero{
-    animation: movement 1s steps(4) infinite;
+    animation: movement 1s steps(3) infinite;
     width: calc(128px * var(--pixel-size));
     position: absolute;
 }
