@@ -19,7 +19,6 @@ class Hero extends React.Component{
  
         const heldDirection = heldDirections[0];
         if (heldDirection){
-            return
             
         }
         
