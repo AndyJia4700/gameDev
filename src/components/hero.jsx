@@ -21,7 +21,10 @@ class Hero extends React.Component{
         if (heldDirection){
             
 
+
+
             
+
         }
         
     }
