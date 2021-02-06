@@ -14,6 +14,7 @@ class Hero extends React.Component{
         const speed = 2;
         const heldDirections = [];
         const pixelSize = parseInt(
+            
             getComputedStyle(document.documentElement).getPropertyValue('--pixel-size')
         )
  
@@ -23,7 +24,7 @@ class Hero extends React.Component{
 
 
 
-            
+
 
         }
         
